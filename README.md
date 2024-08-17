@@ -9,3 +9,4 @@ ila Bank iOS Practical Test
 
 - Don’t use third party libraries.
 
+<img width="256" alt="image" src="https://github.com/user-attachments/assets/7322a123-38ec-499d-aaf4-d48f86872b57">
