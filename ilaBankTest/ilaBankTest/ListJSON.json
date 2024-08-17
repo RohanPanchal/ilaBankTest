@@ -1,0 +1,155 @@
+[
+  {
+    "carouselImage": "West-Asia",
+    "items": [
+      {
+        "itmeImage": "Bahrain",
+        "itemName": "Bahrain"
+      },
+      {
+        "itmeImage": "UAE",
+        "itemName": "UAE"
+      },
+      {
+        "itmeImage": "Kuwait",
+        "itemName": "Kuwait"
+      },
+      {
+        "itmeImage": "Qatar",
+        "itemName": "Qatar"
+      },
+      {
+        "itmeImage": "Turkey",
+        "itemName": "Turkey"
+      },
+      {
+        "itmeImage": "Iraq",
+        "itemName": "Iraq"
+      },
+      {
+        "itmeImage": "Georgia",
+        "itemName": "Georgia"
+      },
+      {
+        "itmeImage": "Cyprus",
+        "itemName": "Cyprus"
+      },
+      {
+        "itmeImage": "Jordan",
+        "itemName": "Jordan"
+      },
+      {
+        "itmeImage": "Oman",
+        "itemName": "Oman"
+      },
+      {
+        "itmeImage": "Lebanon",
+        "itemName": "Lebanon"
+      },
+      {
+        "itmeImage": "Armenia",
+        "itemName": "Armenia"
+      }
+    ]
+  },
+  {
+    "carouselImage": "South-Asia",
+    "items": [
+      {
+        "itmeImage": "India",
+        "itemName": "India"
+      },
+      {
+        "itmeImage": "Nepal",
+        "itemName": "Nepal"
+      }
+    ]
+  },
+  {
+    "carouselImage": "East-Asia",
+    "items": [
+      {
+        "itmeImage": "China",
+        "itemName": "China"
+      },
+      {
+        "itmeImage": "Japan",
+        "itemName": "Japan"
+      },
+      {
+        "itmeImage": "Taiwan",
+        "itemName": "Taiwan"
+      },
+      {
+        "itmeImage": "Hong Kong",
+        "itemName": "Hong Kong"
+      }
+    ]
+  },
+  {
+    "carouselImage": "America",
+    "items": [
+      {
+        "itmeImage": "USA",
+        "itemName": "USA"
+      },
+      {
+        "itmeImage": "Canada",
+        "itemName": "Canada"
+      }
+    ]
+  },
+  {
+    "carouselImage": "Europe",
+    "items": [
+      {
+        "itmeImage": "Germany",
+        "itemName": "Germany"
+      },
+      {
+        "itmeImage": "Italy",
+        "itemName": "Italy"
+      },
+      {
+        "itmeImage": "Greece",
+        "itemName": "Greece"
+      },
+      {
+        "itmeImage": "France",
+        "itemName": "France"
+      },
+      {
+        "itmeImage": "Austria",
+        "itemName": "Austria"
+      },
+      {
+        "itmeImage": "Belgium",
+        "itemName": "Belgium"
+      },
+      {
+        "itmeImage": "Poland",
+        "itemName": "Poland"
+      },
+      {
+        "itmeImage": "Finland",
+        "itemName": "Finland"
+      },
+      {
+        "itmeImage": "Spain",
+        "itemName": "Spain"
+      },
+      {
+        "itmeImage": "Romania",
+        "itemName": "Romania"
+      },
+      {
+        "itmeImage": "Switzerland",
+        "itemName": "Switzerland"
+      },
+      {
+        "itmeImage": "Portugal",
+        "itemName": "Portugal"
+      }
+    ]
+  }
+]

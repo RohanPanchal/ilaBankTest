@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SearchbarView" customModule="ilaBankTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8rv-Rj-OoS">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+                    <subviews>
+                        <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="Search" translatesAutoresizingMaskIntoConstraints="NO" id="Ace-MQ-jWG">
+                            <rect key="frame" x="10" y="10" width="355" height="50"/>
+                            <textInputTraits key="textInputTraits" returnKeyType="done"/>
+                            <connections>
+                                <outlet property="delegate" destination="iN0-l3-epB" id="ytg-yf-gxp"/>
+                            </connections>
+                        </searchBar>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemGray3Color"/>
+                    <constraints>
+                        <constraint firstItem="Ace-MQ-jWG" firstAttribute="leading" secondItem="8rv-Rj-OoS" secondAttribute="leading" constant="10" id="7d7-18-AWk"/>
+                        <constraint firstItem="Ace-MQ-jWG" firstAttribute="top" secondItem="8rv-Rj-OoS" secondAttribute="top" constant="10" id="Kfu-u4-wzm"/>
+                        <constraint firstAttribute="height" constant="70" id="daZ-DL-jmh"/>
+                        <constraint firstAttribute="trailing" secondItem="Ace-MQ-jWG" secondAttribute="trailing" constant="10" id="imJ-YI-ULa"/>
+                        <constraint firstAttribute="bottom" secondItem="Ace-MQ-jWG" secondAttribute="bottom" constant="10" id="zgy-3q-vIn"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="8rv-Rj-OoS" secondAttribute="trailing" id="1aG-Uc-ydL"/>
+                <constraint firstItem="8rv-Rj-OoS" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="BTF-od-Clk"/>
+                <constraint firstItem="8rv-Rj-OoS" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="e2e-hF-6WA"/>
+                <constraint firstAttribute="bottom" secondItem="8rv-Rj-OoS" secondAttribute="bottom" id="yju-AR-YVX"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="searchBar" destination="Ace-MQ-jWG" id="hER-e2-6um"/>
+                <outlet property="searchBarView" destination="8rv-Rj-OoS" id="9SZ-M8-mN2"/>
+            </connections>
+            <point key="canvasLocation" x="48" y="0.0"/>
+        </view>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray3Color">
+            <color red="0.7803921568627451" green="0.7803921568627451" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
